@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply text-slate-800 antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-primary-600 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-primary-600/25 transition-all hover:bg-primary-700 hover:shadow-xl hover:shadow-primary-600/30 active:scale-[0.98];
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border-2 border-primary-600 bg-white px-6 py-3.5 text-sm font-semibold text-primary-700 transition-all hover:bg-primary-50 active:scale-[0.98];
+  }
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-accent-green px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-accent-green/25 transition-all hover:bg-accent-green-dark hover:shadow-xl active:scale-[0.98];
+  }
+  .section-title {
+    @apply text-3xl font-bold tracking-tight text-slate-850 sm:text-4xl;
+  }
+  .card-base {
+    @apply rounded-2xl bg-white p-6 shadow-card transition-all duration-300 hover:shadow-card-hover;
+  }
+}
