@@ -11,7 +11,7 @@ const REVIEWS = [
     text: 'Outstanding Experience at Baidyanath Dental Clinic! One of the most comfortable and satisfying dental experiences I have ever had. A special shout-out to Dr. Akhilesh, who is not only incredibly skilled but also genuinely compassionate.',
     author: 'Ajeet Kumar',
     initials: 'AK',
-    badge: 'Local Guide',
+    badge: 'null',
   },
   {
     text: 'I had an excellent experience with Dr. Akhilesh Saini. His expertise and dedication were clear from the start. Highly recommend Dr. Saini for anyone seeking knowledgeable and compassionate dental care.',
